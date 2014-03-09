@@ -2,7 +2,7 @@
 
 Streams for JavaScript, also known as lazy sequences.
 
-
+## How to
 
 Nodejs:
 
