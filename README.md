@@ -2,11 +2,11 @@
 
 Streams for JavaScript, also known as lazy sequences.
 
-## How to
+
 
 Nodejs:
 
-```
+```javascript
 var Continuous = require('./continuous.js');
 
 // Constructor for chaining
