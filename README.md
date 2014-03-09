@@ -49,6 +49,8 @@ var result = toArray(
 
 ## Functions/Methods
 
+**StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, rand, memo.
+
 ### head
 
 First item
@@ -89,7 +91,7 @@ toStream([1,2,3]); //=> thunk (1 2 3)
 
 **# function only**
 
-Takes a function and an accumulator to generate an infite stream.
+Takes a function and an accumulator to generate an infinite stream.
 
 ```javascript
 ones = iterate(function(x){return x}, 1);
