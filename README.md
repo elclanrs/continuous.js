@@ -50,6 +50,14 @@ var result = toArray(
   stream(1,2,3,4,5))));
 ```
 
+Continuous works on strings as well:
+
+```javascript
+var result = new Stream('hello')
+  .map(function(x){return x.toUpperCase()})
+  .toArray();
+```
+
 ## Functions/Methods
 
 **StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, rand, memo.
