@@ -330,6 +330,8 @@ streamOfStreams.join(); //=> thunk (1 3 2 4)
 
 ### flatMap
 
+**# function only**
+
 Monadic "bind"
 
 ```javascript
