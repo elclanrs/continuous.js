@@ -304,7 +304,7 @@ new Stream(1,2,3).every(function(x){return x < 3}); //=> false
 
 ### append
 
-Append items at the end of the stream
+Append a stream to another stream
 
 ```javascript
 new Stream(1,2,3).append(stream(4,5,6)); //=> thunk (1 2 3 4 5 6)
