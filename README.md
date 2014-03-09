@@ -55,7 +55,8 @@ Continuous works on strings as well:
 ```javascript
 var result = new Stream('hello')
   .map(function(x){return x.toUpperCase()})
-  .toArray();
+  .toArray()
+  .join('');
 ```
 
 ## Functions/Methods
