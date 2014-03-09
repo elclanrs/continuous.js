@@ -2,9 +2,12 @@
 
 Streams for JavaScript, also known as lazy sequences.
 
+**Support:** NodeJS, IE9+.
+**License:** [MIT](http://opensource.org/licenses/MIT)
+
 ## How to
 
-Nodejs:
+NodeJS:
 
 ```javascript
 var Continuous = require('./continuous.js');
