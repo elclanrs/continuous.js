@@ -345,6 +345,8 @@ var result = toArray(
 //^ [4,5,5,6]
 ```
 
+## Extra
+
 ### repeat
 
 Repeat item infinitely
