@@ -201,9 +201,7 @@ do (exports = window ? module.exports) ->
   class Stream
     constructor: (xs...) ->
       @xs = if typeof xs[0] is 'function' then xs[0] else toStream xs
-
     get: -> @xs
-
     clone: -> Stream @xs
 
 
