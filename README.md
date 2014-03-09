@@ -2,7 +2,7 @@
 
 Streams for JavaScript, also known as lazy sequences.
 
-**Support:** NodeJS, IE9+.
+**Support:** NodeJS, IE9+.  
 **License:** [MIT](http://opensource.org/licenses/MIT)
 
 ## How to
@@ -382,3 +382,5 @@ Continuous doesn't memoize by default but you can use `memo` if you need to:
 ```javascript
 memo(fibonacciStream);
 ```
+
+![smiley](http://www.4smileys.com/smileys/computer-smileys/computer_smiley2.gif)
