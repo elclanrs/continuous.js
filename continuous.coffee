@@ -204,7 +204,6 @@ do (exports = window ? module.exports) ->
     get: -> @xs
     clone: -> Stream @xs
 
-
   for meth, f of StreamI
     do (meth, f) ->
       Stream::[meth] = (args...) ->

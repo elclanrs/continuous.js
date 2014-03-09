@@ -270,7 +270,7 @@ new Stream(1,2,3).doStream(2, function(x){console.log(x)});
 
 ### each
 
-Same as `doStream` but til `Infinity`. Do not use with infite streams unless you `take` items first.
+Same as `doStream` but til `Infinity`. Do not use with infinite streams unless you `take` items first.
 
 ```javascript
 new Stream(1,2,3).each(function(x){console.log(x)});
@@ -321,7 +321,7 @@ new Stream(1,2,3).append(stream(2,3,4)); //=> thunk (1 2 3 4)
 
 ### accumulate
 
-Fold a stream of streams with a function tha operates on streams
+Fold a stream of streams with a function that operates on streams
 
 ```javascript
 streamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));
@@ -330,7 +330,7 @@ streamOfStreams.accumulate(interleave); //=> thunk (1 3 2 4)
 
 ### join
 
-Accumulates a stream of stream by interleaving items
+Accumulates a stream of streams by interleaving items
 
 ```javascript
 streamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));
@@ -366,7 +366,7 @@ repeat(1); //=> thunk (1 1 1 ...)
 
 ### ints
 
-Infinites stream of integers from n
+Infinite stream of integers from n
 
 ```javascript
 ints(5); //=> thunk (5 6 7 ...)
