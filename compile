@@ -1,0 +1,5 @@
+#!/bin/sh
+
+coffee -m -c -o js continuous.coffee
+uglifyjs js/continuous.js --comments --screw-ie8 -m -c -o js/continuous.min.js --in-source-map js/continuous.map
+coffee test.coffee
