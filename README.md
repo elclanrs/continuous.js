@@ -61,7 +61,7 @@ var result = new Stream('hello')
 
 ## Functions/Methods
 
-**StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, rand, memo.
+**StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, memo.
 
 ### head
 
