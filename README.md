@@ -366,9 +366,9 @@ var result = toArray(
 
 ### get
 
-Get stream out of the class container
-
 **# method only**
+
+Get stream out of the class container
 
 ```javascript
 toArray(new Stream(1,2,3).get()); //=> [1, 2, 3]
@@ -376,9 +376,9 @@ toArray(new Stream(1,2,3).get()); //=> [1, 2, 3]
 
 ### clone
 
-Clone a stream at any point in the chain
-
 **# method only**
+
+Clone a stream at any point in the chain
 
 ```javascript
 var stream = new Stream(1,2,3);
