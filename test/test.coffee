@@ -116,4 +116,13 @@ test (new Stream StreamI.stream 'hello').toArray(),
 test (new Stream 'lorem').map((x) -> x.toUpperCase()).toArray(),
   ['L','O','R','E','M'], 'string'
 
+ss = new Stream 1,2,3
+clone = ss.clone().drop 1
+
+test clone.toArray(),
+  [2,3], 'clone'
+
+test ss.toArray(),
+  [1,2,3], 'clone - no mutation'
+
 log '\nAll good! ✔'

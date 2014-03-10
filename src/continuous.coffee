@@ -202,7 +202,7 @@ do (exports = window ? module.exports) ->
     constructor: (xs...) ->
       @xs = if typeof xs[0] is 'function' then xs[0] else toStream xs
     get: -> @xs
-    clone: -> Stream @xs
+    clone: -> new Stream @xs
 
   for meth, f of StreamI
     do (meth, f) ->

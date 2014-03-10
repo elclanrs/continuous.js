@@ -364,6 +364,26 @@ var result = toArray(
 //^ [4,5,5,6]
 ```
 
+### get
+
+Get stream out of the class container
+
+**# method only**
+
+```javascript
+toArray(new Stream(1,2,3).get()); //=> [1, 2, 3]
+```
+
+### clone
+
+Clone a stream at any point in the chain
+
+**# method only**
+
+```javascript
+
+```
+
 ## Extra
 
 ### repeat
