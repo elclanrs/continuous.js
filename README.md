@@ -381,7 +381,8 @@ Clone a stream at any point in the chain
 **# method only**
 
 ```javascript
-
+var stream = new Stream(1,2,3);
+var newStream = stream.clone().drop(1).toArray(); //=> [2, 3]
 ```
 
 ## Extra

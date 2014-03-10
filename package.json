@@ -2,7 +2,7 @@
   "author": "elclanrs",
   "name": "continuous-stream",
   "description": "Streams for JavaScript, also known as lazy sequences",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "main": "lib/continuous.js",
   "repository": {
     "type": "git",
