@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish', './', '--force' ]
+2 info using npm@1.4.4
+3 info using node@v0.10.26
+4 verbose node symlink /usr/bin/node
+5 warn using --force I sure hope you know what you are doing.
+6 verbose publish [ './' ]
+7 verbose cache add [ './', null ]
+8 verbose cache add name=undefined spec="./" args=["./",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: './',
+9 verbose parsed url   path: './',
+9 verbose parsed url   href: './' }
+10 silly lockFile 0ee6c175- ./
+11 verbose lock ./ /home/elclanrs/.npm/0ee6c175-.lock
+12 verbose tar pack [ '/home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz',
+12 verbose tar pack   './' ]
+13 verbose tarball /home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+14 verbose folder ./
+15 info prepublish continuous-stream@0.9.0
+16 verbose unsafe-perm in lifecycle true
+17 silly lockFile 04cb2bca-tar tar://./
+18 verbose lock tar://./ /home/elclanrs/.npm/04cb2bca-tar.lock
+19 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+20 verbose lock tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz /home/elclanrs/.npm/9d931c0f-5085-0-33669920079410076-tmp-tgz.lock
+21 silly lockFile 04cb2bca-tar tar://./
+22 silly lockFile 04cb2bca-tar tar://./
+23 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+24 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+25 verbose tar unpack /home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+26 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+27 verbose lock tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package /home/elclanrs/.npm/aaf3844e-5085-0-33669920079410076-package.lock
+28 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+29 verbose lock tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz /home/elclanrs/.npm/9d931c0f-5085-0-33669920079410076-tmp-tgz.lock
+30 silly gunzTarPerm modes [ '755', '644' ]
+31 silly gunzTarPerm extractEntry package.json
+32 silly gunzTarPerm extractEntry .npmignore
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm extractEntry README.md~
+35 silly gunzTarPerm extractEntry compile
+36 silly gunzTarPerm extractEntry lib/continuous.js
+37 silly gunzTarPerm extractEntry lib/continuous.min.js
+38 silly gunzTarPerm extractEntry lib/continuous.map
+39 silly gunzTarPerm extractEntry publish
+40 silly gunzTarPerm extractEntry src/continuous.coffee
+41 silly gunzTarPerm extractEntry test/test.coffee
+42 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+43 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+44 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+45 silly lockFile 9d931c0f-5085-0-33669920079410076-tmp-tgz tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/tmp.tgz
+46 verbose tar pack [ '/home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz',
+46 verbose tar pack   '/home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package' ]
+47 verbose tarball /home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+48 verbose folder /home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+49 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+50 verbose lock tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package /home/elclanrs/.npm/aaf3844e-5085-0-33669920079410076-package.lock
+51 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+52 verbose lock tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz /home/elclanrs/.npm/a10e61ac-tinuous-stream-0-9-0-package-tgz.lock
+53 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+54 silly lockFile aaf3844e-5085-0-33669920079410076-package tar:///home/elclanrs/tmp/npm-28048-0ia6tGf1/1394440615085-0.33669920079410076/package
+55 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+56 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+57 silly lockFile 6ce14839--continuous-stream-0-9-0-package /home/elclanrs/.npm/continuous-stream/0.9.0/package
+58 verbose lock /home/elclanrs/.npm/continuous-stream/0.9.0/package /home/elclanrs/.npm/6ce14839--continuous-stream-0-9-0-package.lock
+59 silly lockFile 6ce14839--continuous-stream-0-9-0-package /home/elclanrs/.npm/continuous-stream/0.9.0/package
+60 silly lockFile 6ce14839--continuous-stream-0-9-0-package /home/elclanrs/.npm/continuous-stream/0.9.0/package
+61 verbose tar unpack /home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+62 silly lockFile 173574e7--continuous-stream-0-9-0-package tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package
+63 verbose lock tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package /home/elclanrs/.npm/173574e7--continuous-stream-0-9-0-package.lock
+64 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+65 verbose lock tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz /home/elclanrs/.npm/a10e61ac-tinuous-stream-0-9-0-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry README.md~
+71 silly gunzTarPerm extractEntry compile
+72 silly gunzTarPerm extractEntry lib/continuous.js
+73 silly gunzTarPerm extractEntry lib/continuous.min.js
+74 silly gunzTarPerm extractEntry lib/continuous.map
+75 silly gunzTarPerm extractEntry publish
+76 silly gunzTarPerm extractEntry src/continuous.coffee
+77 silly gunzTarPerm extractEntry test/test.coffee
+78 silly lockFile 173574e7--continuous-stream-0-9-0-package tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package
+79 silly lockFile 173574e7--continuous-stream-0-9-0-package tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package
+80 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+81 silly lockFile a10e61ac-tinuous-stream-0-9-0-package-tgz tar:///home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz
+82 verbose chmod /home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz 644
+83 verbose chown /home/elclanrs/.npm/continuous-stream/0.9.0/package.tgz [ 1000, 1000 ]
+84 silly lockFile 0ee6c175- ./
+85 silly lockFile 0ee6c175- ./
+86 silly publish { author: { name: 'elclanrs' },
+86 silly publish   name: 'continuous-stream',
+86 silly publish   description: 'Streams for JavaScript, also known as lazy sequences',
+86 silly publish   version: '0.9.0',
+86 silly publish   main: 'lib/continuous.js',
+86 silly publish   repository:
+86 silly publish    { type: 'git',
+86 silly publish      url: 'https://github.com/elclanrs/continuous.js.git' },
+86 silly publish   devDependencies: { 'coffee-script': '^1.7.1', 'uglify-js': '^2.4.12' },
+86 silly publish   scripts: { prepublish: './compile && coffee test/test.coffee' },
+86 silly publish   licenses: [ { type: 'MIT', url: 'http://opensource.org/licenses/MIT' } ],
+86 silly publish   keywords: [ 'stream', 'lazy', 'sequence' ],
+86 silly publish   readme: '# Continuous.js\n\nStreams for JavaScript, also known as lazy sequences.\n\n**Support:** NodeJS, IE9+.  \n**License:** [MIT](http://opensource.org/licenses/MIT)\n\n## How to\n\n### Node and Browserify:\n\nDownload with `npm`:\n\n```\nnpm install continuous-stream\n```\n\nThen `require` in your project:\n\n```javascript\nvar Continuous = require(\'./continuous.js\');\n\n// Constructor for chaining\nvar Stream = Continuous.Stream;\n\n// Functions for composition\nvar StreamI = Continuous.StreamI;\n```\n\n### Browser:\n\n```html\n<script src="continuous.js"></script>\n<script>\n// Now you can use Stream and StreamI\n</script>\n```\n\nContinuous can be used with chaining:\n\n```javascript\nvar result = new Stream(1,2,3,4,5)\n  .filter(function(x){return x > 3})\n  .map(function(x){return x * 2})\n  .toArray();\n```\n\nAnd composition:\n\n```javascript\n// Add functions to global scope\n// using an "extend" helper\n$.extend(window, StreamI);\n\nvar result = toArray(\n  map(function(x){return x * 2},\n  filter(function(x){return x > 3},  \n  stream(1,2,3,4,5))));\n```\n\nContinuous works on strings as well:\n\n```javascript\nvar result = new Stream(\'hello\')\n  .map(function(x){return x.toUpperCase()})\n  .toArray()\n  .join(\'\');\n```\n\n## Functions/Methods\n\n**StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, memo.\n\n### head\n\nFirst item\n\n```javascript\nnew Stream(1,2,3).head(); //=> 1\n```\n\n### tail\n\nEveything but the first item\n\n```javascript\nnew Stream(1,2,3).tail(); //=> thunk (2 3)\n```\n\n### stream\n\n**# function only**\n\nCreate a stream\n\n```javascript\nstream(1,2,3); //=> thunk (1 2 3)\n```\n\n### toStream\n\n**# function only**\n\nGet a stream from an array\n\n```javascript\ntoStream([1,2,3]); //=> thunk (1 2 3)\n```\n\n### iterate\n\n**# function only**\n\nTakes a function and an accumulator to generate an infinite stream.\n\n```javascript\nones = iterate(function(x){return x}, 1);\nones(); //=> thunk (1 1 1 ...)\n```\n\n### map\n\nApply a function to every item of the stream\n\n```javascript\nnew Stream(1,2,3).map(function(x){return x + 1}); //=> thunk (2 3 4)\n```\n\n### pluck\n\nCreate a new stream of property values from a collection\n\n```javascript\nvar people = [\n  {name: \'Peter\'},\n  {name: \'Mike\'}\n];\n\nnew Stream(toStream(people)).pluck(\'name\'); //=> thunk (\'Peter\' \'Mike\')\n```\n\n### filter\n\nKeep items that pass the test\n\n```javascript\nnew Stream(1,2,3).filter(function(x){return x % 2 !== 0}); //=> thunk (1 3)\n```\n\n### unique\n\nRemove duplicates from the stream\n\n```javascript\nnew Stream(1,1,2,2,3,3).unique(); //=> thunk (1 2 3)\n```\n\n### reject\n\nRemove items that pass the test\n\n```javascript\nnew Stream(1,2,3).reject(function(x){return x < 2}); //=> thunk (2 3)\n```\n\n### without\n\nRemove the given items\n\n```javascript\nnew Stream(1,2,3,4).without(2,3); //=> thunk (1 4)\n```\n\n### take\n\nTake n items\n\n```javascript\nnew Stream(1,2,3).take(2); //=> thunk (1 2)\n```\n\n### takeWhile\n\nTake items while they pass the test\n\n```javascript\nnew Stream(1,2,3).takeWhile(function(x){return x < 3}); //=> thunk (1 2)\n```\n\n### takeWhere\n  \nTake items where property and value match\n\n```javascript\nvar people = [\n  {name: \'Peter\', age: 24},\n  {name: \'Mike\', age: 15}\n  {name: \'Mike\', age: 42}\n];\n\nnew Stream(toStream(people)).takeWhere({name: \'Mike\'});\n//^ thunk ({name: \'Mike\', age: 15} {name: \'Mike\', age: 15})\n```\n\n### drop\n\nRemove n items from the head of the stream\n\n```javascript\nnew Stream(1,2,3).drop(2); //=> thunk (3)\n```\n\n### dropWhile\n\nDrop items until the condition is met\n\n```javascript\nnew Stream(1,2,3).dropWhile(function(x){return x < 2}); //=> thunk (3)\n```\n\n### zipWith\n\nMerge two streams with function\n\n```javascript\nnew Stream(1,2,3).zipWith(function(x,y){return x + y}, stream(4,5,6));\n//^ thunk (5 7 9)\n```\n\n### interleave\n\nMerge two streams lazily by interleaving their items. Useful for infinite lazy streams.\n\n```javascript\nnew Stream(ints(0)).interleave(chars(\'a\',\'z\')); //=> thunk (\'a\' 0 \'b\' 1 \'c\' 2 ...)\n```\n\n### fold\n\nReduce items in the stream with a function and an accumulator\n\n```javascript\nnew Stream(1,2,3).fold(0, function(acc,x){return acc + x}); //=> 6\n```\n\n### fold1\n\nSame as fold but where the accumulator is the first item\n\n```javascript\nnew Stream(1,2,3).fold(function(x,y){return x + y}); //=> 6\n```\n\n### toArray\n\nProcess the stream into an array\n\n```javascript\nnew Stream(1,2,3).toArray(); //=> [1, 2, 3]\n```\n\n### toObject\n\nProcess the stream into an object\n\n```javascript\nnew Stream(\'a\',1,\'b\',2,\'c\',3).toObject(); //=> {a:1, b:2, c:3}\n```\n\n### doStream\n\nProcess the stream up to n items to do side effects\n\n```javascript\nnew Stream(1,2,3).doStream(2, function(x){console.log(x)});\n//> 1 .. 2\n```\n\n### each\n\nSame as `doStream` but til `Infinity`. Do not use with infinite streams unless you `take` items first.\n\n```javascript\nnew Stream(1,2,3).each(function(x){console.log(x)});\n//> 1 .. 2 .. 3\n```\n\n### find\n\nReturn the index of the item if found otherwise return `false`\n\n```javascript\nnew Stream(1,2,3).find(2); //=> 1\nnew Stream(1,2,3).find(5); //=> false\n```\n\n### some\n\nCheck if at least one item passes the test\n\n```javascript\nnew Stream(1,2,3).some(function(x){return x > 0}); //=> true\n```\n\n### every\n\nCheck if all items pass the test\n\n```javascript\nnew Stream(1,2,3).every(function(x){return x < 3}); //=> false\n```\n\n### append\n\nAppend a stream to another stream\n\n```javascript\nnew Stream(1,2,3).append(stream(4,5,6)); //=> thunk (1 2 3 4 5 6)\n```\n\n### union\n\nAppend only unique items\n\n```javascript\n\nnew Stream(1,2,3).append(stream(2,3,4)); //=> thunk (1 2 3 4)\n```\n\n### accumulate\n\nFold a stream of streams with a function that operates on streams\n\n```javascript\nstreamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));\nstreamOfStreams.accumulate(interleave); //=> thunk (1 3 2 4)\n```\n\n### join\n\nAccumulates a stream of streams by interleaving items\n\n```javascript\nstreamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));\nstreamOfStreams.join(); //=> thunk (1 3 2 4)\n```\n\n### flatMap\n\n**# function only**\n\nMonadic "bind"\n\n```javascript\nvar result = toArray(\n  flatMap(stream(1,2), function(x) {\n    return flatMap(stream(3,4), function(y) {\n      return stream(x + y);\n    });\n  });\n);\n//^ [4,5,5,6]\n```\n\n## Extra\n\n### repeat\n\nRepeat item infinitely\n\n```javascript\nrepeat(1); //=> thunk (1 1 1 ...)\n```\n\n### ints\n\nInfinite stream of integers from n\n\n```javascript\nints(5); //=> thunk (5 6 7 ...)\n```\n\n### rand\n\nInfinite stream of random numbers between 0 and 1\n\n```javascript\nrand(); //=> thunk (0.12321313576, 0.87603421337, 0.91267844482 ...)\n```\n\n### chars\n\nInfinite stream of characters from start to end\n\n```javascript\nchars(\'a\', \'c\'); //=> thunk (\'a\' \'b\' \'c\' \'a\' \'b\' \'c\' ...)\n```\n\n### memo\n\nContinuous doesn\'t memoize by default but you can use `memo` if you need to:\n\n```javascript\nmemo(fibonacciStream);\n```\n\n![smiley](http://www.4smileys.com/smileys/computer-smileys/computer_smiley2.gif)\n',
+86 silly publish   readmeFilename: 'README.md',
+86 silly publish   bugs: { url: 'https://github.com/elclanrs/continuous.js/issues' },
+86 silly publish   homepage: 'https://github.com/elclanrs/continuous.js',
+86 silly publish   _id: 'continuous-stream@0.9.0',
+86 silly publish   dist: { shasum: '0d21016d5ec06bb1cb2333da12f9df6388e68a31' },
+86 silly publish   _from: './' }
+87 verbose url raw continuous-stream
+88 verbose url resolving [ 'https://registry.npmjs.org/', './continuous-stream' ]
+89 verbose url resolved https://registry.npmjs.org/continuous-stream
+90 info trying registry request attempt 1 at 04:36:55
+91 http PUT https://registry.npmjs.org/continuous-stream
+92 http 403 https://registry.npmjs.org/continuous-stream
+93 error publish Failed PUT 403
+94 error Error: forbidden cannot modify pre-existing version: 0.9.0
+94 error old={"author":{"name":"elclanrs"},"name":"continuous-stream","description":"Streams for JavaScript, also known as lazy sequences","version":"0.9.0","main":"lib/continuous.js","repository":{"type":"git","url":"https://github.com/elclanrs/continuous.js.git"},"devDependencies":{"coffee-script":"^1.7.1","uglify-js":"^2.4.12"},"scripts":{"prepublish":"./compile && coffee test/test.coffee"},"licenses":[{"type":"MIT","url":"http://opensource.org/licenses/MIT"}],"keywords":["stream","lazy","sequence"],"bugs":{"url":"https://github.com/elclanrs/continuous.js/issues"},"homepage":"https://github.com/elclanrs/continuous.js","_id":"continuous-stream@0.9.0","dist":{"shasum":"9a452938892615f520d173496fdbc50de75a75e5","tarball":"http://registry.npmjs.org/continuous-stream/-/continuous-stream-0.9.0.tgz"},"_from":"./","_npmVersion":"1.4.4","_npmUser":{"name":"elclanrs","email":"elclanrs@gmail.com"},"maintainers":[{"name":"elclanrs","email":"elclanrs@gmail.com"}]}
+94 error new={"author":{"name":"elclanrs"},"name":"continuous-stream","description":"Streams for JavaScript, also known as lazy sequences","version":"0.9.0","main":"lib/continuous.js","repository":{"type":"git","url":"https://github.com/elclanrs/continuous.js.git"},"devDependencies":{"coffee-script":"^1.7.1","uglify-js":"^2.4.12"},"scripts":{"prepublish":"./compile && coffee test/test.coffee"},"licenses":[{"type":"MIT","url":"http://opensource.org/licenses/MIT"}],"keywords":["stream","lazy","sequence"],"readme":"# Continuous.js\u000a\u000aStreams for JavaScript, also known as lazy sequences.\u000a\u000a**Support:** NodeJS, IE9+.  \u000a**License:** [MIT](http://opensource.org/licenses/MIT)\u000a\u000a## How to\u000a\u000a### Node and Browserify:\u000a\u000aDownload with `npm`:\u000a\u000a```\u000anpm install continuous-stream\u000a```\u000a\u000aThen `require` in your project:\u000a\u000a```javascript\u000avar Continuous = require('./continuous.js');\u000a\u000a// Constructor for chaining\u000avar Stream = Continuous.Stream;\u000a\u000a// Functions for composition\u000avar StreamI = Continuous.StreamI;\u000a```\u000a\u000a### Browser:\u000a\u000a```html\u000a<script src=\"continuous.js\"></script>\u000a<script>\u000a// Now you can use Stream and StreamI\u000a</script>\u000a```\u000a\u000aContinuous can be used with chaining:\u000a\u000a```javascript\u000avar result = new Stream(1,2,3,4,5)\u000a  .filter(function(x){return x > 3})\u000a  .map(function(x){return x * 2})\u000a  .toArray();\u000a```\u000a\u000aAnd composition:\u000a\u000a```javascript\u000a// Add functions to global scope\u000a// using an \"extend\" helper\u000a$.extend(window, StreamI);\u000a\u000avar result = toArray(\u000a  map(function(x){return x * 2},\u000a  filter(function(x){return x > 3},  \u000a  stream(1,2,3,4,5))));\u000a```\u000a\u000aContinuous works on strings as well:\u000a\u000a```javascript\u000avar result = new Stream('hello')\u000a  .map(function(x){return x.toUpperCase()})\u000a  .toArray()\u000a  .join('');\u000a```\u000a\u000a## Functions/Methods\u000a\u000a**StreamI:** head, tail, stream, toStream, iterate, map, pluck, filter, unique, reject, without, take, takeWhile, takeWhere, drop, dropWhile, zipWith, interleave, fold, fold1, toArray, toObject, doStream, each, find, some, every, append, union, accumulate, join, flatMap, repeat, ints, rand, chars, memo.\u000a\u000a### head\u000a\u000aFirst item\u000a\u000a```javascript\u000anew Stream(1,2,3).head(); //=> 1\u000a```\u000a\u000a### tail\u000a\u000aEveything but the first item\u000a\u000a```javascript\u000anew Stream(1,2,3).tail(); //=> thunk (2 3)\u000a```\u000a\u000a### stream\u000a\u000a**# function only**\u000a\u000aCreate a stream\u000a\u000a```javascript\u000astream(1,2,3); //=> thunk (1 2 3)\u000a```\u000a\u000a### toStream\u000a\u000a**# function only**\u000a\u000aGet a stream from an array\u000a\u000a```javascript\u000atoStream([1,2,3]); //=> thunk (1 2 3)\u000a```\u000a\u000a### iterate\u000a\u000a**# function only**\u000a\u000aTakes a function and an accumulator to generate an infinite stream.\u000a\u000a```javascript\u000aones = iterate(function(x){return x}, 1);\u000aones(); //=> thunk (1 1 1 ...)\u000a```\u000a\u000a### map\u000a\u000aApply a function to every item of the stream\u000a\u000a```javascript\u000anew Stream(1,2,3).map(function(x){return x + 1}); //=> thunk (2 3 4)\u000a```\u000a\u000a### pluck\u000a\u000aCreate a new stream of property values from a collection\u000a\u000a```javascript\u000avar people = [\u000a  {name: 'Peter'},\u000a  {name: 'Mike'}\u000a];\u000a\u000anew Stream(toStream(people)).pluck('name'); //=> thunk ('Peter' 'Mike')\u000a```\u000a\u000a### filter\u000a\u000aKeep items that pass the test\u000a\u000a```javascript\u000anew Stream(1,2,3).filter(function(x){return x % 2 !== 0}); //=> thunk (1 3)\u000a```\u000a\u000a### unique\u000a\u000aRemove duplicates from the stream\u000a\u000a```javascript\u000anew Stream(1,1,2,2,3,3).unique(); //=> thunk (1 2 3)\u000a```\u000a\u000a### reject\u000a\u000aRemove items that pass the test\u000a\u000a```javascript\u000anew Stream(1,2,3).reject(function(x){return x < 2}); //=> thunk (2 3)\u000a```\u000a\u000a### without\u000a\u000aRemove the given items\u000a\u000a```javascript\u000anew Stream(1,2,3,4).without(2,3); //=> thunk (1 4)\u000a```\u000a\u000a### take\u000a\u000aTake n items\u000a\u000a```javascript\u000anew Stream(1,2,3).take(2); //=> thunk (1 2)\u000a```\u000a\u000a### takeWhile\u000a\u000aTake items while they pass the test\u000a\u000a```javascript\u000anew Stream(1,2,3).takeWhile(function(x){return x < 3}); //=> thunk (1 2)\u000a```\u000a\u000a### takeWhere\u000a  \u000aTake items where property and value match\u000a\u000a```javascript\u000avar people = [\u000a  {name: 'Peter', age: 24},\u000a  {name: 'Mike', age: 15}\u000a  {name: 'Mike', age: 42}\u000a];\u000a\u000anew Stream(toStream(people)).takeWhere({name: 'Mike'});\u000a//^ thunk ({name: 'Mike', age: 15} {name: 'Mike', age: 15})\u000a```\u000a\u000a### drop\u000a\u000aRemove n items from the head of the stream\u000a\u000a```javascript\u000anew Stream(1,2,3).drop(2); //=> thunk (3)\u000a```\u000a\u000a### dropWhile\u000a\u000aDrop items until the condition is met\u000a\u000a```javascript\u000anew Stream(1,2,3).dropWhile(function(x){return x < 2}); //=> thunk (3)\u000a```\u000a\u000a### zipWith\u000a\u000aMerge two streams with function\u000a\u000a```javascript\u000anew Stream(1,2,3).zipWith(function(x,y){return x + y}, stream(4,5,6));\u000a//^ thunk (5 7 9)\u000a```\u000a\u000a### interleave\u000a\u000aMerge two streams lazily by interleaving their items. Useful for infinite lazy streams.\u000a\u000a```javascript\u000anew Stream(ints(0)).interleave(chars('a','z')); //=> thunk ('a' 0 'b' 1 'c' 2 ...)\u000a```\u000a\u000a### fold\u000a\u000aReduce items in the stream with a function and an accumulator\u000a\u000a```javascript\u000anew Stream(1,2,3).fold(0, function(acc,x){return acc + x}); //=> 6\u000a```\u000a\u000a### fold1\u000a\u000aSame as fold but where the accumulator is the first item\u000a\u000a```javascript\u000anew Stream(1,2,3).fold(function(x,y){return x + y}); //=> 6\u000a```\u000a\u000a### toArray\u000a\u000aProcess the stream into an array\u000a\u000a```javascript\u000anew Stream(1,2,3).toArray(); //=> [1, 2, 3]\u000a```\u000a\u000a### toObject\u000a\u000aProcess the stream into an object\u000a\u000a```javascript\u000anew Stream('a',1,'b',2,'c',3).toObject(); //=> {a:1, b:2, c:3}\u000a```\u000a\u000a### doStream\u000a\u000aProcess the stream up to n items to do side effects\u000a\u000a```javascript\u000anew Stream(1,2,3).doStream(2, function(x){console.log(x)});\u000a//> 1 .. 2\u000a```\u000a\u000a### each\u000a\u000aSame as `doStream` but til `Infinity`. Do not use with infinite streams unless you `take` items first.\u000a\u000a```javascript\u000anew Stream(1,2,3).each(function(x){console.log(x)});\u000a//> 1 .. 2 .. 3\u000a```\u000a\u000a### find\u000a\u000aReturn the index of the item if found otherwise return `false`\u000a\u000a```javascript\u000anew Stream(1,2,3).find(2); //=> 1\u000anew Stream(1,2,3).find(5); //=> false\u000a```\u000a\u000a### some\u000a\u000aCheck if at least one item passes the test\u000a\u000a```javascript\u000anew Stream(1,2,3).some(function(x){return x > 0}); //=> true\u000a```\u000a\u000a### every\u000a\u000aCheck if all items pass the test\u000a\u000a```javascript\u000anew Stream(1,2,3).every(function(x){return x < 3}); //=> false\u000a```\u000a\u000a### append\u000a\u000aAppend a stream to another stream\u000a\u000a```javascript\u000anew Stream(1,2,3).append(stream(4,5,6)); //=> thunk (1 2 3 4 5 6)\u000a```\u000a\u000a### union\u000a\u000aAppend only unique items\u000a\u000a```javascript\u000a\u000anew Stream(1,2,3).append(stream(2,3,4)); //=> thunk (1 2 3 4)\u000a```\u000a\u000a### accumulate\u000a\u000aFold a stream of streams with a function that operates on streams\u000a\u000a```javascript\u000astreamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));\u000astreamOfStreams.accumulate(interleave); //=> thunk (1 3 2 4)\u000a```\u000a\u000a### join\u000a\u000aAccumulates a stream of streams by interleaving items\u000a\u000a```javascript\u000astreamOfStreams = new Stream(stream(stream(1, 2), stream(3, 4)));\u000astreamOfStreams.join(); //=> thunk (1 3 2 4)\u000a```\u000a\u000a### flatMap\u000a\u000a**# function only**\u000a\u000aMonadic \"bind\"\u000a\u000a```javascript\u000avar result = toArray(\u000a  flatMap(stream(1,2), function(x) {\u000a    return flatMap(stream(3,4), function(y) {\u000a      return stream(x + y);\u000a    });\u000a  });\u000a);\u000a//^ [4,5,5,6]\u000a```\u000a\u000a## Extra\u000a\u000a### repeat\u000a\u000aRepeat item infinitely\u000a\u000a```javascript\u000arepeat(1); //=> thunk (1 1 1 ...)\u000a```\u000a\u000a### ints\u000a\u000aInfinite stream of integers from n\u000a\u000a```javascript\u000aints(5); //=> thunk (5 6 7 ...)\u000a```\u000a\u000a### rand\u000a\u000aInfinite stream of random numbers between 0 and 1\u000a\u000a```javascript\u000arand(); //=> thunk (0.12321313576, 0.87603421337, 0.91267844482 ...)\u000a```\u000a\u000a### chars\u000a\u000aInfinite stream of characters from start to end\u000a\u000a```javascript\u000achars('a', 'c'); //=> thunk ('a' 'b' 'c' 'a' 'b' 'c' ...)\u000a```\u000a\u000a### memo\u000a\u000aContinuous doesn't memoize by default but you can use `memo` if you need to:\u000a\u000a```javascript\u000amemo(fibonacciStream);\u000a```\u000a\u000a![smiley](http://www.4smileys.com/smileys/computer-smileys/computer_smiley2.gif)\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/elclanrs/continuous.js/issues"},"homepage":"https://github.com/elclanrs/continuous.js","_id":"continuous-stream@0.9.0","dist":{"shasum":"0d21016d5ec06bb1cb2333da12f9df6388e68a31","tarball":"http://registry.npmjs.org/continuous-stream/-/continuous-stream-0.9.0.tgz"},"_from":"./","_npmVersion":"1.4.4","_npmUser":{"name":"elclanrs","email":"elclanrs@gmail.com"},"maintainers":[{"name":"elclanrs","email":"elclanrs@gmail.com"}]}: continuous-stream
+94 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+94 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:123:22)
+94 error     at Request.EventEmitter.emit (events.js:98:17)
+94 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:893:14)
+94 error     at Request.EventEmitter.emit (events.js:117:20)
+94 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:844:12)
+94 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+94 error     at _stream_readable.js:920:16
+94 error     at process._tickCallback (node.js:415:13)
+95 error If you need help, you may report this *entire* log,
+95 error including the npm and node versions, at:
+95 error     <http://github.com/npm/npm/issues>
+96 error System Linux 3.11.0-18-generic
+97 error command "node" "/usr/bin/npm" "publish" "./" "--force"
+98 error cwd /home/elclanrs/Documents/continuous.js
+99 error node -v v0.10.26
+100 error npm -v 1.4.4
+101 verbose exit [ 1, true ]
