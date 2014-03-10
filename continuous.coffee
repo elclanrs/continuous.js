@@ -39,7 +39,7 @@ do (exports = window ? module.exports) ->
     force xs (x, y) -> y
 
   stream = (xs...) ->
-    if typeof xs[0] is 'string'
+    if xs.length is 1 and typeof xs[0] is 'string'
       xs = xs[0]
     if xs.length
       cons xs[0], -> stream ([].concat xs[1..])...
