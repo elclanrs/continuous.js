@@ -7,7 +7,15 @@ Streams for JavaScript, also known as lazy sequences.
 
 ## How to
 
-NodeJS:
+### Node and Browserify:
+
+Download with `npm`:
+
+```
+npm install continuous-stream
+```
+
+Then `require` in your project:
 
 ```javascript
 var Continuous = require('./continuous.js');
@@ -19,7 +27,7 @@ var Stream = Continuous.Stream;
 var StreamI = Continuous.StreamI;
 ```
 
-Browser:
+### Browser:
 
 ```html
 <script src="continuous.js"></script>
