@@ -5,7 +5,7 @@ Streams for JavaScript, also known as lazy sequences.
 **Support:** NodeJS, IE9+.  
 **License:** [MIT](http://opensource.org/licenses/MIT)
 
-## How to
+## Install
 
 ### Node and Browserify:
 
@@ -35,6 +35,8 @@ var StreamI = Continuous.StreamI;
 // Now you can use Stream and StreamI
 </script>
 ```
+
+## How to
 
 Continuous can be used with chaining:
 
