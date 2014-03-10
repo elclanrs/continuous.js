@@ -1,0 +1,23 @@
+{
+  "author": "elclanrs",
+  "name": "continuous-stream",
+  "description": "Streams for JavaScript, also known as lazy sequences",
+  "version": "0.9.0",
+  "main": "lib/continuous.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elclanrs/continuous.js.git"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "uglify-js": "^2.4.12"
+  },
+  "scripts": {
+    "prepublish": "./compile && coffee test/test.coffee"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }],
+  "keywords": ["stream", "lazy", "sequence"]
+}

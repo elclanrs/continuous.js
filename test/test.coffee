@@ -1,7 +1,7 @@
 # Test
 #
 assert = require 'assert'
-{StreamI, Stream} = require './continuous.coffee'
+{StreamI, Stream} = require '../src/continuous.coffee'
 
 log = (x) -> console.log x
 

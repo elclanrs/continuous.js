@@ -1,0 +1,9 @@
+#!/bin/sh
+
+git add .
+git commit -am "$1"
+git push origin master
+
+if [ "$2" = "y" ]; then
+  npm publish ./
+fi
