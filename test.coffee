@@ -108,7 +108,10 @@ res = do ({stream, flatMap, toArray} = StreamI) ->
 test res, [4,5,5,6], 'flatMap'
 
 test (new Stream StreamI.stream 'hello',1,2,3).toArray(),
-  ['hello',1,2,3], 'string, one argument'
+  ['hello',1,2,3], 'string, multiple arguments'
+
+test (new Stream StreamI.stream 'hello').toArray(),
+  ['h','e','l','l','o'], 'string, one argument'
 
 test (new Stream 'lorem').map((x) -> x.toUpperCase()).toArray(),
   ['L','O','R','E','M'], 'string'
